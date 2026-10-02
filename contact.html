@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Glam Beautystyle</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <!-- ============================================HERO - RÉSERVATION============================================= -->
+        <section class="reservation-hero">
+
+            <div class="container-fluid p-0">
+
+                <div class="row g-0">
+
+                    <!-- =========================
+                        TEXTE
+                    ========================== -->
+
+                    <div class="col-12 col-lg-5 reservation-hero-content">
+
+                        <div class="reservation-hero-text">
+
+                            <!-- Breadcrumb -->
+
+                            <div class="reservation-breadcrumb">
+
+                                <a href="/">ACCUEIL</a>
+
+                                <span>/</span>
+
+                                <span>NOUS CONTACTER</span>
+
+                            </div>
+
+
+                            <!-- Titre -->
+
+                            <h1 class="reservation-hero-title">
+
+                                Réservez votre
+
+                                <span>
+                                    rendez-vous.
+                                </span>
+
+                            </h1>
+
+
+                            <!-- Description -->
+
+                            <p class="reservation-hero-description">
+
+                                Un moment pour vous.
+                                Simple, rapide et sécurisé.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================
+                        IMAGE
+                    ========================== -->
+
+                    <div class="col-12 col-lg-7 reservation-hero-image">
+
+                        <img
+                            src="/assets/images/reservation/salon.jpg"
+                            alt="Salon Glam Beautystyle"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =====================================================RÉSERVATION====================================================== -->
+
+        <section class="booking-section">
+
+            <div class="container">
+
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- ==========================================
+                        FORMULAIRE
+                    =========================================== -->
+
+                    <div class="col-12 col-lg-7">
+
+                        <div class="booking-card">
+
+                            <!-- HEADER -->
+
+                            <div class="booking-header">
+
+                                <div class="booking-header-icon">
+                                    <i class="bi bi-calendar3"></i>
+                                </div>
+
+                                <div>
+                                    <h2>Réservation</h2>
+
+                                    <p>
+                                        Remplissez les informations ci-dessous
+                                        pour réserver votre rendez-vous.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <form class="booking-form">
+
+                                <!-- ==================================
+                                    ÉTAPE 1
+                                =================================== -->
+
+                                <div class="booking-step">
+
+                                    <div class="step-number">
+                                        1
+                                    </div>
+
+                                    <div class="step-content">
+
+                                        <label for="service">
+                                            Choisissez le service
+                                        </label>
+
+                                        <select
+                                            id="service"
+                                            name="service"
+                                            class="form-select glam-input"
+                                            required
+                                        >
+                                            <option value="" selected disabled>
+                                                Sélectionnez un service
+                                            </option>
+
+                                            <option value="coiffure-femme">
+                                                Coiffure femme
+                                            </option>
+
+                                            <option value="coiffure-homme">
+                                                Coiffure homme
+                                            </option>
+
+                                            <option value="coiffure-enfant">
+                                                Coiffure enfant
+                                            </option>
+
+                                            <option value="soin-visage">
+                                                Soin du visage
+                                            </option>
+
+                                        </select>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- ==================================
+                                    ÉTAPE 2
+                                =================================== -->
+
+                                <div class="booking-step">
+
+                                    <div class="step-number">
+                                        2
+                                    </div>
+
+                                    <div class="step-content">
+
+                                        <label for="professional">
+                                            Choisissez le professionnel
+                                            <span>(optionnel)</span>
+                                        </label>
+
+                                        <div class="input-icon-wrapper">
+
+                                            <i class="bi bi-person"></i>
+
+                                            <select
+                                                id="professional"
+                                                name="professional"
+                                                class="form-select glam-input has-icon"
+                                            >
+
+                                                <option value="any" selected>
+                                                    Peu importe (recommandé)
+                                                </option>
+
+                                                <option value="sophia">
+                                                    Sophia
+                                                </option>
+
+                                                <option value="marc">
+                                                    Marc
+                                                </option>
+
+                                                <option value="lea">
+                                                    Léa
+                                                </option>
+
+                                                <option value="emma">
+                                                    Emma
+                                                </option>
+
+                                            </select>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- ==================================
+                                    ÉTAPE 3
+                                =================================== -->
+
+                                <div class="booking-step">
+
+                                    <div class="step-number">
+                                        3
+                                    </div>
+
+                                    <div class="step-content">
+
+                                        <label>
+                                            Date et heure
+                                        </label>
+
+                                        <div class="row g-3">
+
+                                            <!-- DATE -->
+
+                                            <div class="col-12 col-md-6">
+
+                                                <div class="input-icon-wrapper">
+
+                                                    <i class="bi bi-calendar3"></i>
+
+                                                    <input
+                                                        type="date"
+                                                        name="date"
+                                                        class="form-control glam-input has-icon"
+                                                        required
+                                                    >
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- HEURE -->
+
+                                            <div class="col-12 col-md-6">
+
+                                                <div class="input-icon-wrapper">
+
+                                                    <i class="bi bi-clock"></i>
+
+                                                    <select
+                                                        name="time"
+                                                        class="form-select glam-input has-icon"
+                                                        required
+                                                    >
+
+                                                        <option value="" selected disabled>
+                                                            Sélectionnez une heure
+                                                        </option>
+
+                                                        <option>09:00</option>
+                                                        <option>09:30</option>
+                                                        <option>10:00</option>
+                                                        <option>10:30</option>
+                                                        <option>11:00</option>
+                                                        <option>11:30</option>
+
+                                                    </select>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- ==================================
+                                    ÉTAPE 4
+                                =================================== -->
+
+                                <div class="booking-step">
+
+                                    <div class="step-number">
+                                        4
+                                    </div>
+
+                                    <div class="step-content">
+
+                                        <label>
+                                            Vos coordonnées
+                                        </label>
+
+
+                                        <div class="row g-3">
+
+                                            <!-- PRÉNOM -->
+
+                                            <div class="col-12 col-md-6">
+
+                                                <div class="input-icon-wrapper">
+
+                                                    <i class="bi bi-person"></i>
+
+                                                    <input
+                                                        type="text"
+                                                        name="firstname"
+                                                        class="form-control glam-input has-icon"
+                                                        placeholder="Votre prénom"
+                                                        required
+                                                    >
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- NOM -->
+
+                                            <div class="col-12 col-md-6">
+
+                                                <div class="input-icon-wrapper">
+
+                                                    <i class="bi bi-person"></i>
+
+                                                    <input
+                                                        type="text"
+                                                        name="lastname"
+                                                        class="form-control glam-input has-icon"
+                                                        placeholder="Votre nom"
+                                                        required
+                                                    >
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- TELEPHONE -->
+
+                                            <div class="col-12 col-md-6">
+
+                                                <div class="input-icon-wrapper">
+
+                                                    <i class="bi bi-telephone"></i>
+
+                                                    <input
+                                                        type="tel"
+                                                        name="phone"
+                                                        class="form-control glam-input has-icon"
+                                                        placeholder="(819) 123-4567"
+                                                        required
+                                                    >
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- EMAIL -->
+
+                                            <div class="col-12 col-md-6">
+
+                                                <div class="input-icon-wrapper">
+
+                                                    <i class="bi bi-envelope"></i>
+
+                                                    <input
+                                                        type="email"
+                                                        name="email"
+                                                        class="form-control glam-input has-icon"
+                                                        placeholder="votre@email.com"
+                                                        required
+                                                    >
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- NOTE -->
+
+                                            <div class="col-12">
+
+                                                <div class="input-icon-wrapper textarea-wrapper">
+
+                                                    <i class="bi bi-chat-left-text"></i>
+
+                                                    <textarea
+                                                        name="note"
+                                                        class="form-control glam-input has-icon"
+                                                        placeholder="Une note ? (optionnel)"
+                                                        rows="3"
+                                                    ></textarea>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <!-- BOUTON -->
+
+                                        <button
+                                            type="submit"
+                                            class="booking-submit"
+                                        >
+
+                                            <span>
+                                                Confirmer ma réservation
+                                            </span>
+
+                                            <i class="bi bi-arrow-right"></i>
+
+                                        </button>
+
+
+                                        <p class="booking-security">
+
+                                            <i class="bi bi-lock-fill"></i>
+
+                                            Vos informations sont sécurisées
+                                            et confidentielles.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==========================================
+                        COLONNE DROITE
+                    =========================================== -->
+
+                    <div class="col-12 col-lg-5">
+
+                        <div class="booking-side">
+
+
+                            <!-- ==================================
+                                BESOIN D'AIDE
+                            =================================== -->
+
+                            <div class="help-card">
+
+                                <div class="help-header">
+
+                                    <div class="help-main-icon">
+                                        <i class="bi bi-chat-dots"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h2>
+                                            Besoin d’aide ?
+                                        </h2>
+
+                                        <p>
+                                            Notre équipe est là pour répondre
+                                            à toutes vos questions.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row g-3 help-options">
+
+
+                                    <!-- TELEPHONE -->
+
+                                    <div class="col-12 col-sm-6">
+
+                                        <a
+                                            href="tel:+18191234567"
+                                            class="help-option"
+                                        >
+
+                                            <i class="bi bi-telephone"></i>
+
+                                            <div>
+
+                                                <strong>
+                                                    Téléphone
+                                                </strong>
+
+                                                <span>
+                                                    (819) 123-4567
+                                                </span>
+
+                                                <small>
+                                                    Appelez-nous directement.
+                                                </small>
+
+                                            </div>
+
+                                        </a>
+
+                                    </div>
+
+
+                                    <!-- COURRIEL -->
+
+                                    <div class="col-12 col-sm-6">
+
+                                        <a
+                                            href="mailto:info@glambeautystyle.ca"
+                                            class="help-option"
+                                        >
+
+                                            <i class="bi bi-envelope"></i>
+
+                                            <div>
+
+                                                <strong>
+                                                    Courriel
+                                                </strong>
+
+                                                <span>
+                                                    info@glambeautystyle.ca
+                                                </span>
+
+                                                <small>
+                                                    Réponse sous 24h.
+                                                </small>
+
+                                            </div>
+
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- ==================================
+                                IMAGE / PROMO
+                            =================================== -->
+
+                            <div class="booking-promo">
+
+                                <img
+                                    src="/assets/images/reservation/beauty-products.jpg"
+                                    alt="Produits et soins Glam Beautystyle"
+                                >
+
+
+                                <div class="booking-promo-overlay"></div>
+
+
+                                <div class="booking-promo-content">
+
+                                    <h3>
+                                        Une expérience
+                                        <span>beauté sur mesure.</span>
+                                    </h3>
+
+                                    <div class="promo-line"></div>
+
+                                    <p>
+                                        Coiffure, soins capillaires,
+                                        soins du visage et plus,
+                                        pour tous.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
